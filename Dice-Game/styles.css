@@ -1,0 +1,138 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.firstClass, .secondClass { 
+  display:inline;
+  margin: 100px;"
+}
+
+.nameInput {
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 9px;
+  width: 150px;
+  height: 26px;
+  background-color: rgb(204, 196, 196);
+  font-size: large;
+  align-self: stretch;
+  color: #131112; 
+  cursor: pointer; 
+}
+
+#score {
+  display: flexbox;
+}
+
+.nameInput:hover {
+  background-color: whitesmoke ;
+}
+
+
+body {
+  background-color: powderblue;
+}
+
+.refresh {
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  padding: 9px;
+  width: 250px;
+  height: 50px;
+  background-color: darkred;
+  font-size: large;
+  align-self: stretch;
+  color: yellow; 
+  cursor: pointer; 
+}
+
+.refresh:hover {
+  background-color: lightsalmon ;
+}
+
+#clickButton {
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  padding: 9px;
+  width: 150px;
+  height: 50px;
+  background-color: darkred;
+  font-size: large;
+  align-self: stretch;
+  color: yellow; 
+  cursor: pointer; 
+}
+
+#resetButton {
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  padding: 9px;
+  width: 150px;
+  height: 50px;
+  background-color: darkred;
+  font-size: large;
+  align-self: stretch;
+  color: yellow; 
+  cursor: pointer; 
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Garamond', bold;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #cf1965;
+}
+
+h3 {
+  margin: 30px;
+  font-family: 'Garamond', bold;
+  //text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  text-align: center;
+  color: #cf1965;
+
+}
+
+p {
+  font-size: 2rem;
+  color: #cf1965;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+a {
+  font-size: 2rem;
+  color: #cf1965;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}

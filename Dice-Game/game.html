@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Welcome to Online DICE GAME</h1>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" style="margin:20px;" src="images/dice1.png"> 
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" style="margin:20px;" src="images/dice1.png">
+      </div>
+
+      <div>
+         <p class = "firstClass">Score1: <a id="Score1">0</a></p> 
+         <p class = "secondClass">Score2: <a id="Score2">0</a></p>
+      </div>
+    
+      <br><br>
+      <!-- <input class="nameInput" style="margin:40px;" type="text" placeholder="Name of Player 1">    
+      <input class="nameInput" style="margin:40px;" type="text" placeholder="Name of Player 2">  -->
+      <br><br>
+      <br><br>
+      <button id="btn" class="refresh" onclick="mouseClick();" >ROLL THE DICE</button>
+      <br><br>     
+      <br><br>   
+      <button type="button" id="clickButton">SCORES</button>
+      <p>Clicks: <a id="clicks">0</a></p>
+      <br><br>  
+      <button type="button" id="resetButton" onclick="resetButton();">RESET</button>
+      <!-- <a href="#" onclick="resetCounter(); return false">Reset counter</a> -->
+      <br><br>
+    </div>   
+    <script src="index.js"></script>
+  </body>
+
+  <footer>
+    <h3>PER SCHOLAS PROJECT #1</h3>
+  </footer>
+</html>
