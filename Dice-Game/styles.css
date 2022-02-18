@@ -15,6 +15,7 @@
   margin: 100px;"
 }
 
+
 .nameInput {
   text-align: center;
   display: inline-block;
@@ -40,7 +41,7 @@
 
 
 body {
-  background-color: powderblue;
+  background: linear-gradient(to right, powderblue, rgb(205, 207, 82));
 }
 
 .refresh {
@@ -59,7 +60,8 @@ body {
 }
 
 .refresh:hover {
-  background-color: lightsalmon ;
+  background-color: rgb(115, 129, 209) ;
+  font-weight: bold;
 }
 
 #clickButton {
@@ -90,6 +92,11 @@ body {
   align-self: stretch;
   color: yellow; 
   cursor: pointer; 
+}
+
+#resetButton:hover {
+  background-color: rgb(115, 129, 209) ;
+  font-weight: bold;
 }
 
 h1 {
